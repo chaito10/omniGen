@@ -1,0 +1,90 @@
+site_name: OmniGen Documentation
+site_description: Production-quality, single-executable multimodal AI runtime
+site_url: https://user.github.io/OmniGen
+repo_url: https://github.com/user/OmniGen
+repo_name: user/OmniGen
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/user/OmniGen
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+    - Configuration: getting-started/configuration.md
+  - CLI Reference:
+    - Overview: cli/overview.md
+    - Commands: cli/commands.md
+  - Models:
+    - Overview: models/overview.md
+    - Text Generation (Qwen3): models/qwen.md
+    - Image Generation (FLUX): models/flux.md
+    - Video Generation (LTX): models/ltx.md
+    - Audio Transcription (Whisper): models/whisper.md
+  - Architecture:
+    - Overview: architecture/overview.md
+    - Pipeline Engine: architecture/pipeline.md
+    - Backend: architecture/backend.md
+    - Memory Management: architecture/memory.md
+    - Download Manager: architecture/download.md
+  - Development:
+    - Contributing: development/contributing.md
+    - Building from Source: development/building.md
+    - Project Structure: development/structure.md
+  - Changelog: changelog.md

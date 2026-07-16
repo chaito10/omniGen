@@ -1,0 +1,63 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Models (large files, downloaded at runtime)
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Test and coverage
+*.profraw
+*.profdata
+tarpaulin-report.html
+codecov/
+coverage/
+
+# Documentation build
+site/
+docs/site/
+
+# Release
+release/
+*.zip
+omnigen-rc-*/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Cache
+.cache/
+__pycache__/
