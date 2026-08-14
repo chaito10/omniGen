@@ -1,6 +1,12 @@
 # OmniGen (Candle Studio)
 
+![Version](https://img.shields.io/github/v/release/chaito10/OmniGen) ![License](https://img.shields.io/github/license/chaito10/OmniGen)
+
 A production-quality, single-executable multimodal AI runtime written entirely in Rust.
+
+## What is this?
+
+OmniGen (Candle Studio) is a production-quality, single-executable multimodal AI runtime written in Rust. It runs text generation (Qwen3), image generation and transformation (FLUX.1 Schnell), video generation and transformation (LTX Video), and audio transcription and generation (Whisper) from one binary using Candle with Vulkan or CPU fallback. Pipelines are driven by a YAML DAG engine with automatic, resume-able model downloads from HuggingFace.
 
 ## Features
 
