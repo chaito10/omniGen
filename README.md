@@ -33,6 +33,13 @@ omnigen
 
 ## Installation
 
+### Scoop (Windows)
+
+```bash
+scoop bucket add chaito10 https://github.com/chaito10/scoop-bucket
+scoop install omnigen
+```
+
 ### From Source
 
 ```bash
