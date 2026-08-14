@@ -1,5 +1,10 @@
 # OmniGen (Candle Studio)
 
+<p align="center">
+  <img src="assets/cover.png" alt="OmniGen" width="800"/>
+</p>
+
+
 ![Version](https://img.shields.io/github/v/release/chaito10/OmniGen) ![License](https://img.shields.io/github/license/chaito10/OmniGen)
 
 A production-quality, single-executable multimodal AI runtime written entirely in Rust.
